@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
+  <title>Contact - Online Leave Management System</title>
   <link rel="stylesheet" href="contact.css">
 </head>
 <body>
@@ -13,33 +13,38 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
       <a href="apply.html">Apply</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h2>We'd love to hear from you!</h2>
-      <p>If you have any questions, feedback or support needs, feel free to reach out using the form below.</p>
-
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br>
+    <section class="contact-section">
+      <h2>Get in Touch</h2>
+      <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br>
+        <input type="email" id="email" name="email" required>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
         <button type="submit">Send Message</button>
       </form>
+
+      <div class="contact-info">
+        <h3>University Contact Details</h3>
+        <p>Email: ibroabdullahi254@gmail.com</p>
+        <p>Phone: +254721880074</p>
+        <p>Address: Bright Future University, Main Campus,gariisa county</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Leave Management System</p>
+    <p>&copy; 2025 Bright Future University. All rights reserved.</p>
   </footer>
 </body>
 </html>

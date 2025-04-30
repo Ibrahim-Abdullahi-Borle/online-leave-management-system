@@ -1,47 +1,49 @@
 /* index.css */
-
 body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-      }
-      
-      header {
-        background-color: #35424a;
-        color: white;
-        padding: 20px 0;
-        text-align: center;
-      }
-      
-      nav a {
-        margin: 0 15px;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      
-      section {
-        padding: 20px;
-        text-align: center;
-      }
-      
-      .main-image {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 20px auto;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      
-      footer {
-        background-color: #222;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-      }
-      
+  font-family: Arial, sans-serif;
+  background: #eef2f3;
+  margin: 5px;
+  padding: 10px;
+}
+
+header {
+  background: #2E8B57;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+nav a {
+  background-color:white;
+  padding: 10px;
+  text-decoration: none;
+  margin: 15px;
+  justify-content: end;
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 8px rgba(0,0,0,0.1);
+}
+
+.chancellor img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #2E8B57;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
